@@ -58,3 +58,15 @@ git branch -M master
 git push -u origin master
 ```
 
+
+
+# 错误
+
+```
+初次使用git，在执行完"git add readme.txt"命令后，在执行commit时，由于命令写错，没有写提交日志，再次更正提交就出现上述错误：Unable to create 'E:/xxx/.git/index.lock': File exists
+
+
+
+解决方案：在.git同级目录，执行rm -f .git/index.lock    将文件删除即可提交成功
+```
+
