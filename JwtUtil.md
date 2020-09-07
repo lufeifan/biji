@@ -1,4 +1,24 @@
+```
+<!--        jwt-->
+        <!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>3.10.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+```
+
+
+
 ```java
+
+
 package com.shirojwt.demo.jwt;
 
 import com.auth0.jwt.JWT;
