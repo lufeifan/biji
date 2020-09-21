@@ -1,3 +1,11 @@
+## 学习地址
+
+> http://www.pythondoc.com/flask-mega-tutorial/index.html#
+>
+> https://dormousehole.readthedocs.io/en/latest/
+
+## 安装
+
 ```python
 pip install flask
 
